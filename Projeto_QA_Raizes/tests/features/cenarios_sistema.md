@@ -1,0 +1,12 @@
+| **ID** | **Cenário** | **Entrada (Ação do Usuário)** | **Saída Esperada (Resposta do Sistema)** | **Mensagem de Erro / Validação** |
+| --- | --- | --- | --- | --- |
+| **01** | **Finalizar pedido com sucesso** | Selecionar 1 Cuscuz completo + Pagamento via PIX. | Pedido gerado e enviado para a cozinha da unidade. | "Pedido recebido! Acompanhe o preparo em tempo real." |
+| **02** | **Checkout sem itens no carrinho** | Clicar no ícone de carrinho vazio e tentar "Finalizar". | O botão de pagamento deve estar bloqueado. | "Opa! Seu carrinho está vazio. Escolha antes de fechar." |
+| **03** | **Cartão de crédito com dados inválidos** | Digitar um número de cartão fictício ou expirado. | O sistema deve recusar o processamento antes de enviar. | "Dados do cartão inválidos. Verifique o número ou a validade." |
+| **04** | **Aplicação de Cupom Vencido** | Inserir o código "NATAL2024" (fora da validade). | O valor do carrinho deve permanecer o mesmo. | "Este cupom já expirou ou não é válido para esta unidade." |
+| **05** | **Queda de internet durante o checkout** | Desligar o 4G/Wi-Fi no momento de clicar em "Pagar". | O sistema deve entrar em modo de retenção de dados. | "Parece que você está offline. Não se preocupe, salvamos seu carrinho!" |
+| **06** | **Alteração de Unidade de Entrega** | Mudar da "Unidade Centro" para a "Unidade Shopping". | Recálculo imediato do valor da taxa de entrega. | "Atenção: Os preços e taxas mudaram para a nova unidade selecionada." |
+| **07** | **Tentativa de pagar sem escolher método** | Deixar a seleção de pagamento em branco e clicar em "Pagar". | Destaque visual no campo de seleção obrigatória. | "Por favor, selecione como deseja pagar seu pedido." |
+| **08** | **Limite de adicionais atingido** | Tentar colocar 6 recheios extras em uma tapioca (limite é 3). | Bloqueio do botão "+" após o terceiro item selecionado. | "Limite máximo de recheios atingido para este produto." |
+| **09** | **Aceite obrigatório da LGPD** | Tentar fechar o primeiro pedido sem marcar o "Li e aceito". | Impedir o avanço para a tela de pagamento. | "Para continuar, você precisa aceitar nossos termos de uso de dados." |
+| **10** | **Prevenção de Pedido Duplicado** | Clicar várias vezes seguidas no botão de "Finalizar". | O sistema deve processar apenas o primeiro clique e ignorar os demais. | "Processando seu pedido... Por favor, aguarde um instante." |

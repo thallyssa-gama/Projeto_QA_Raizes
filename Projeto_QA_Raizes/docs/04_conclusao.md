@@ -1,0 +1,5 @@
+A elaboração deste Plano de Garantia da Qualidade para a funcionalidade de Realizar Pedido e Checkout Mobile demonstra que a qualidade de software é o alicerce estratégico para o sucesso da rede Raízes do Nordeste. Mais do que apenas encontrar falhas, o processo de QA aqui estruturado garante que a tecnologia seja uma facilitadora — e não um obstáculo — no dia a dia das franquias.
+
+Em resumo, a Garantia da Qualidade assegura que o sistema de checkout seja confiável para quem paga e operacional para quem vende, mitigando riscos financeiros e operacionais. Com um processo de testes bem definido e indicadores monitorados, a solução se torna escalável e preparada para suportar o crescimento da rede com a estabilidade e o desempenho que o mercado de alimentação exige.
+
+Desenvolvido por Thallyssa Gama.
