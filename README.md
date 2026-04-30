@@ -104,6 +104,6 @@ Os documentos de planejamento estão em /docs/.
 
 👉[[Notion](https://www.notion.so/Projeto-Qualidade-de-Software-Ra-zes-Do-Nordeste-344437a022aa805b87aeddc5f0070a4a?source=copy_link)]
 
-Desenvolvido por Thallyssa Gama | 📧 [thallyssagama55@gmail.com] | 🔗 LinkedIn
+Desenvolvido por Thallyssa Gama | 📧 [thallyssagama55@gmail.com] | 🔗 [LinkedIn](https://www.linkedin.com/in/thallyssa-gama-265b041b4/)
 
 
